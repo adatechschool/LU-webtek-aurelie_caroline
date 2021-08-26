@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Base Apparel coming soon page</title>
     <link rel="stylesheet" href="challenge1front-end.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id= "main-contener">
         <div id="edito"> 
-        <header>
             <img src="images/logo.svg" alt="logo base apparel">
-        </header>
-        <main>
-            <h1>We're</h1>
-            <h2>Coming<br>soon</h2>
-            <section>
+            <article>
+                <h1>We're</h1>
+                <h2>Coming<br>soon</h2>
                 <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-            </section>
-        </div>    
+            </article>
+            <form>
+                <input  id="email" placeholder="Email Address">
+                <button type="submit" onclick="validate()"></button>  
+                <p id="checked mail"></p>    
+            </form>  
+        </div>  
         <div id="picture">
             <img src="images/hero-desktop.jpg" alt="presentation model">
         </div>
-        </main>
     </section>
+    <script type=text/javascript src="challenge1front-end.js"> </script>
 </body>
 </html>
